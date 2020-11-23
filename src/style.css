@@ -1,0 +1,102 @@
+body {background-color: rgb(51, 1, 1);
+    background-image: url("../media/brickjpg.jpg");}
+
+.bottom {min-width: 264px;
+    max-width: 253px;
+min-height: 150px;
+background-color: #b30000;
+border-radius: 110px 0 100px 85px;
+transform: rotate(-20deg);
+z-index: -1;}
+
+.container { width: 50%;
+    text-align: center;
+    object-position: center;
+margin-left: auto;
+margin-right: auto;}
+
+.middle {min-width: 161px;
+max-width: 16px;
+min-height: 160px;
+background-color: #b30000;
+transform: rotate(-20deg);
+z-index: -1;
+margin-left: 50px;
+margin-top: 70px;
+}
+
+.top-left {min-width: 75px;
+max-width: 40px;
+min-height: 60px;
+max-height: 75px;
+background-color: #ffffff;
+z-index: 1;
+border-radius: 50%;
+}
+
+.top-right {min-width: 85px;
+    max-width: 40px;
+    min-height: 60px;
+    max-height: 115px;
+    background-color: #ffffff;
+    z-index: 1;
+    border-radius: 50%;
+    position: relative;
+    right: 295px;
+    bottom: 30px;
+}
+
+.top-middle {
+    min-width: 105px;
+    max-width: 30px;   
+    max-height: 130px;
+     position: relative;
+     right: 90px;
+     bottom: 30px;
+    background-color: #ffffff;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+
+.top-middle2 {
+    min-width: 105px;
+    max-width: 30px;   
+    max-height: 140px;
+     position: relative;
+     right: 160px;
+     bottom: 30px;
+    background-color: #ffffff;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.top-middleleft {min-width: 55px;
+    max-width: 30px;   
+     max-height: 100px;
+     position: relative;
+     right: 50px;
+     bottom: 10px;
+    background-color: #ffffff;
+    z-index: 1;
+    border-radius: 50%;}
+
+    .top-middleright { min-width: 105px;
+        max-width: 30px;   
+        max-height: 130px;
+         position: relative;
+         right: 240px;
+         bottom: 30px;
+        background-color: #ffffff;
+        z-index: 1;
+        border-radius: 50%;}
+
+    .top {
+       display: flex;
+       flex-direction: row;
+       transform: rotate(-10deg);
+       min-height: 200px;
+       z-index: 3;
+       position: absolute;
+       top: 40px;
+    }

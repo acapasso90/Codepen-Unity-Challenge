@@ -4,10 +4,10 @@ body {background-color: rgb(3, 40, 51);
 .bottom {min-width: 264px;
     max-width: 253px;
 min-height: 150px;
-background-color: #b30000;
+background: radial-gradient(circle, rgba(200,11,11,1) 23%, rgba(89,0,0,1) 100%);
 border-radius: 110px 0 100px 85px;
 transform: rotate(-20deg);
-z-index: -1;
+z-index: 1;
 position: relative;
 bottom: 30px;
 left: 25px;}
@@ -15,7 +15,7 @@ left: 25px;}
 .col- {z-index: 1;}
 
 .container { width: 1000px;
-    height: 100%;
+    max-height: 800px;
     text-align: center;
     object-position: center;
 margin-left: auto;
@@ -145,6 +145,70 @@ transform: rotate(290deg);}
     left: 150px;
     transform: rotate(340deg);}
 
+.light { min-height: 26px;
+    min-width: 20px;
+    max-width: 20px;
+    border-radius: 60%;
+background-color: #25acb6;}
+
+.lightRed {min-height: 26px;
+    min-width: 20px;
+    max-width: 20px;
+    border-radius: 60%;
+background-color: #f00000;
+}
+
+.lightPurple {min-height: 26px;
+    min-width: 20px;
+    max-width: 20px;
+    border-radius: 60%;
+background-color: #bd24fa;
+}
+
+.lightGreen {min-height: 26px;
+    min-width: 20px;
+    max-width: 20px;
+    border-radius: 60%;
+background-color: #0aaf05;
+}
+
+.lightYellow {min-height: 26px;
+    min-width: 20px;
+    max-width: 20px;
+    border-radius: 60%;
+background-color: #a1ac0c;
+}
+
+
+.lights {background-color: #031400;
+min-height: 10px;
+max-height: 10px;
+max-width: 975px;
+position: relative;
+bottom: 700px;
+z-index: 2;}
+
+.lightsLeft {background-color: #031400;
+    min-height: 10px;
+    max-height: 10px;
+    max-width: 700px;
+    position: relative;
+    transform: rotate(90deg);
+    bottom: 364px;
+    right: 352px;
+    border-radius: 10px;
+    z-index: -1;}
+
+    .lightsRight {background-color: #031400;
+        min-height: 10px;
+        max-height: 10px;
+        max-width: 700px;
+        position: relative;
+        transform: rotate(90deg);
+        bottom: 374px;
+        left: 622px;
+        border-radius: 10px;
+        z-index: -1;}
 
 .log { background: linear-gradient(0deg, rgba(61,32,30,1) 0%, rgba(170,100,60,1) 100%);
 min-height: 100px;
@@ -158,11 +222,17 @@ animation: fire 6s ease-in-out infinite alternate;}
 .middle {min-width: 161px;
 max-width: 16px;
 min-height: 160px;
-background-color: #b30000;
+background: linear-gradient(83deg, rgba(200,11,11,1) 0%, rgba(88,0,0,1) 100%);
 transform: rotate(-20deg);
 position: relative;
 left: 75px;
 bottom: 30px;
+}
+
+.middleLightRow {position: relative;
+bottom: 738px;
+z-index: 2;
+min-width: 1060px;
 }
 
 .rightmiddle {min-width: 161px;
@@ -180,9 +250,8 @@ bottom: 30px;
 min-height: 150px;
 background: linear-gradient(0deg, rgba(12,162,1,1) 0%, rgba(60,170,71,1) 100%);
 z-index: 1;
-border-radius: 110px 0 100px 85px;
+border-radius: 105px 0 100px 85px;
 transform: rotate(-20deg);
-z-index: -1;
 position: relative;
 bottom: 30px;
 left: 400px;}
@@ -208,7 +277,56 @@ left: 630px;
 border-radius: 45px;}
 
 .row {z-index: 1;
-margin: 0;}
+margin: 0;
+max-height: 30px;}
+
+.sideLight {min-height: 26px;
+    min-width: 20px;
+    max-width: 20px;
+    border-radius: 60%;
+background-color: #25acb6;
+margin-top: 80px;}
+
+.sideLightRed {min-height: 26px;
+    min-width: 20px;
+    max-width: 20px;
+    border-radius: 60%;
+background-color: #f00000;
+margin-top: 80px;}
+
+.sideLightGreen {min-height: 26px;
+    min-width: 20px;
+    max-width: 20px;
+    border-radius: 60%;
+background-color: #0aaf05;
+margin-top: 80px;}
+
+
+.sideLightYellow {min-height: 26px;
+    min-width: 20px;
+    max-width: 20px;
+    border-radius: 60%;
+background-color: #a1ac0c;
+margin-top: 80px;}
+
+.sideLightPurple {min-height: 26px;
+    min-width: 20px;
+    max-width: 20px;
+    border-radius: 60%;
+background-color: #bd24fa;
+margin-top: 80px;}
+
+.sideLightRow {position: relative;
+z-index: 1;
+bottom: 815px;
+right: 28px;
+min-height: 600px;}
+
+.sideLightsRowRight {position: absolute;
+    z-index: 1;
+    bottom: 160px;
+    left: 1255px;
+    min-height: 600px;}
 
 .top-left {min-width: 75px;
 max-width: 40px;
@@ -287,31 +405,31 @@ border-radius: 50%;
        left: 10px;
     }
 
-@keyframes fire {0% {box-shadow: 0px 0px 40px #72caec,
-    0px 0px 55px #c2fd54,
-    0px 0px 65px #c2fd54,
-    0px 0px 75px #e77415;}
-50% {box-shadow: 0px 0px 50px #72caec,
-    0px 0px 60px #c2fd54,
-    0px 0px 70px #e79315,
-    0px 0px 80px #c2fd54;}
-100% {box-shadow: 0px 0px 60px #72caec,
-    0px 0px 70px #fdd054,
-    0px 0px 80px #e72e15,
-    0px 0px 90px #fdd654;}
+@keyframes fire {0% {box-shadow: 0px -20px 40px #72caec,
+    0px -25px 55px #c2fd54,
+    0px -30px 65px #c2fd54,
+    0px -35px 75px #e77415;}
+50% {box-shadow: 0px -20px 50px #72caec,
+    0px -25px 60px #c2fd54,
+    0px -30px 70px #e79315,
+    0px -35px 80px #c2fd54;}
+100% {box-shadow: 0px -20px 60px #72caec,
+    0px -25px 70px #fdd054,
+    0px -30px 80px #e72e15,
+    0px -35px 90px #fdd654;}
 }
 
 
-@keyframes fireFire {0% {box-shadow: 0px 0px 40px #72caec,
+@keyframes fireFire {0% {box-shadow: 0px 0px 30px #72caec,
+    0px 0px 45px #c2fd54,
     0px 0px 55px #c2fd54,
-    0px 0px 65px #c2fd54,
-    0px 0px 75px #e77415;}
-50% {box-shadow: 0px 0px 50px #72caec,
-    0px 0px 60px #c2fd54,
-    0px 0px 70px #e79315,
-    0px 0px 80px #c2fd54;}
-100% {box-shadow: 0px 0px 60px #72caec,
-    0px 0px 70px #fdd054,
-    0px 0px 80px #e72e15,
-    0px 0px 90px #fdd654;}
+    0px 0px 65px #e77415;}
+50% {box-shadow: 0px 0px 40px #72caec,
+    0px 0px 50px #c2fd54,
+    0px 0px 60px #e79315,
+    0px 0px 70px #c2fd54;}
+100% {box-shadow: 0px 0px 50px #72caec,
+    0px 0px 60px #fdd054,
+    0px 0px 70px #e72e15,
+    0px 0px 80px #fdd654;}
 }

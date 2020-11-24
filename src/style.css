@@ -13,6 +13,7 @@ bottom: 30px;
 left: 25px;}
 
 .col- {z-index: 1;}
+
 .container { width: 1000px;
     height: 100%;
     text-align: center;
@@ -38,7 +39,14 @@ top: 370px;
 left: 130px;
 z-index: -2;}
 
-.fire { background: linear-gradient(0deg, rgba(254,43,32,1) 0%, rgba(244,181,33,1) 100%);}
+.fire1 { background: linear-gradient(0deg, rgb(114, 202, 236) 0%, #e77415 100%);
+    min-height: 40px;
+    max-width: 280px;
+border-radius: 90%;
+position: relative;
+left: 330px;
+top: 21px;
+animation: fireFire 6s ease-in-out infinite alternate;}
 
 .hollyberryMiddle {border-radius: 50%;
     max-height: 8px;
@@ -48,8 +56,8 @@ z-index: -2;}
     padding: 8px;
 background-color: red;
 position: relative;
-top: 36px;
-left: 182px;}
+left: 154px;
+bottom: 111px;}
 
 .hollyberryLeft {border-radius: 50%;
     max-height: 8px;
@@ -60,7 +68,8 @@ left: 182px;}
     background-color: red;
     position: relative;
     left: 166px;
-top: 60px;}
+    bottom: 86px;
+}
 
     
 .hollyberryRight {border-radius: 50%;
@@ -71,17 +80,80 @@ top: 60px;}
     padding: 8px;
     background-color: red;
     position: relative;
-    left: 180px;
-top: 38px;}
+    left: 168px;
+bottom: 132px;}
+
+
+.leafFar {background-color: #076100;
+    min-height: 26px;
+    min-width: 12px;
+    max-width: 10px;
+    border-radius: 60%;
+    position: relative;
+    bottom: 52px;
+    left: 188px;
+    transform: rotate(-290deg);}
+    
+    .leafFar2 {background-color: #076100;
+        min-height: 26px;
+        min-width: 12px;
+        max-width: 10px;
+        border-radius: 60%;
+        position: relative;
+        bottom: 62px;
+        left: 182px;
+        transform: rotate(130deg);}
+    
+    .leafFar3 {background-color: #043b00;
+        min-height: 30px;
+        min-width: 12px;
+        max-width: 10px;
+        border-radius: 60%;
+        position: relative;
+        bottom: 14px;
+        left: 188px;
+        transform: rotate(-260deg);}
+
+
+.leafNear {background-color: #076100;
+min-height: 26px;
+min-width: 12px;
+max-width: 10px;
+border-radius: 60%;
+position: relative;
+top: 22px;
+left: 150px;
+transform: rotate(290deg);}
+
+.leafNear2 {background-color: #076100;
+    min-height: 26px;
+    min-width: 12px;
+    max-width: 10px;
+    border-radius: 60%;
+    position: relative;
+    bottom: 10px;
+    left: 162px;
+    transform: rotate(10deg);}
+
+.leafNear3 {background-color: #043b00;
+    min-height: 30px;
+    min-width: 12px;
+    max-width: 10px;
+    border-radius: 60%;
+    position: relative;
+    top: 34px;
+    left: 150px;
+    transform: rotate(340deg);}
+
 
 .log { background: linear-gradient(0deg, rgba(61,32,30,1) 0%, rgba(170,100,60,1) 100%);
 min-height: 100px;
 max-width: 280px;
 z-index: 1;
 position: relative;
-top: 40px;
 left: 330px;
-border-radius: 5px;}
+border-radius: 5px;
+animation: fire 6s ease-in-out infinite alternate;}
 
 .middle {min-width: 161px;
 max-width: 16px;
@@ -91,13 +163,12 @@ transform: rotate(-20deg);
 position: relative;
 left: 75px;
 bottom: 30px;
-
 }
 
 .rightmiddle {min-width: 161px;
     max-width: 160px;
     min-height: 160px;
-    background: linear-gradient(180deg, rgba(12,162,1,1) 0%, rgba(60,170,71,1) 100%);
+    background: linear-gradient(180deg, rgb(12, 162, 1) 0%, rgb(60, 170, 71) 100%);
     transform: rotate(-20deg);
     position: relative;
     left: 450px;
@@ -134,7 +205,7 @@ transform: rotate(-12deg);
 position: relative;
 top: 110px;
 left: 630px;
-border-radius: 25px;}
+border-radius: 45px;}
 
 .row {z-index: 1;
 margin: 0;}
@@ -215,3 +286,32 @@ border-radius: 50%;
        top: 320px;
        left: 10px;
     }
+
+@keyframes fire {0% {box-shadow: 0px 0px 40px #72caec,
+    0px 0px 55px #c2fd54,
+    0px 0px 65px #c2fd54,
+    0px 0px 75px #e77415;}
+50% {box-shadow: 0px 0px 50px #72caec,
+    0px 0px 60px #c2fd54,
+    0px 0px 70px #e79315,
+    0px 0px 80px #c2fd54;}
+100% {box-shadow: 0px 0px 60px #72caec,
+    0px 0px 70px #fdd054,
+    0px 0px 80px #e72e15,
+    0px 0px 90px #fdd654;}
+}
+
+
+@keyframes fireFire {0% {box-shadow: 0px 0px 40px #72caec,
+    0px 0px 55px #c2fd54,
+    0px 0px 65px #c2fd54,
+    0px 0px 75px #e77415;}
+50% {box-shadow: 0px 0px 50px #72caec,
+    0px 0px 60px #c2fd54,
+    0px 0px 70px #e79315,
+    0px 0px 80px #c2fd54;}
+100% {box-shadow: 0px 0px 60px #72caec,
+    0px 0px 70px #fdd054,
+    0px 0px 80px #e72e15,
+    0px 0px 90px #fdd654;}
+}

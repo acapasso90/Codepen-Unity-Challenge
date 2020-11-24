@@ -1,5 +1,6 @@
-body {background-color: rgb(3, 40, 51);
-    margin-top: -140px;}
+body {background: linear-gradient(180deg, rgba(22,18,29,1) 0%, rgba(21,14,29,1) 56%, rgba(0,0,0,1) 100%, rgba(11,10,10,1) 100%);
+    margin-top: -140px;
+min-height: 990px;}
 
 .bottom {min-width: 264px;
     max-width: 253px;
@@ -47,6 +48,63 @@ position: relative;
 left: 330px;
 top: 21px;
 animation: fireFire 6s ease-in-out infinite alternate;}
+
+.glowingRed {min-height: 26px;
+    min-width: 20px;
+    max-width: 20px;
+    border-radius: 60%;
+background-color: #ff0b0b;
+animation: glowRed 3s ease-in normal;
+}
+
+.glowingBlue{border-radius: 50%;
+    max-height: 8px;
+    min-height: 5px;
+    min-width: 8px;
+    max-width: 8px;
+    padding: 8px;
+background-color: #25acb6;
+animation: glowBlue 3s ease-in normal;
+position: relative;
+left: 154px;
+bottom: 111px;}
+
+.glowingPurple{border-radius: 50%;
+    max-height: 8px;
+    min-height: 5px;
+    min-width: 8px;
+    max-width: 8px;
+    padding: 8px;
+background-color: #bd24fa;
+animation: glowPurple 3s ease-in normal;
+position: relative;
+left: 154px;
+bottom: 111px;}
+
+.glowingGreen{border-radius: 50%;
+    max-height: 8px;
+    min-height: 5px;
+    min-width: 8px;
+    max-width: 8px;
+    padding: 8px;
+background-color: #0aaf05;
+animation: glowGreen 3s ease-in normal;
+position: relative;
+left: 154px;
+bottom: 111px;}
+
+.glowingYellow {border-radius: 50%;
+    max-height: 8px;
+    min-height: 5px;
+    min-width: 8px;
+    max-width: 8px;
+    padding: 8px;
+background-color: #a1ac0c;
+animation: glowYellow 3s ease-in normal;
+position: relative;
+left: 154px;
+bottom: 111px;}
+
 
 .hollyberryMiddle {border-radius: 50%;
     max-height: 8px;
@@ -145,34 +203,34 @@ transform: rotate(290deg);}
     left: 150px;
     transform: rotate(340deg);}
 
-.light { min-height: 26px;
+.lightbulb { min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
 background-color: #25acb6;}
 
-.lightRed {min-height: 26px;
+.lightbulbRed {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
 background-color: #f00000;
 }
 
-.lightPurple {min-height: 26px;
+.lightbulbPurple {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
 background-color: #bd24fa;
 }
 
-.lightGreen {min-height: 26px;
+.lightbulbGreen {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
 background-color: #0aaf05;
 }
 
-.lightYellow {min-height: 26px;
+.lightbulbYellow {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
@@ -280,21 +338,21 @@ border-radius: 45px;}
 margin: 0;
 max-height: 30px;}
 
-.sideLight {min-height: 26px;
+.sidelightbulb {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
 background-color: #25acb6;
 margin-top: 80px;}
 
-.sideLightRed {min-height: 26px;
+.sidelightbulbRed {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
 background-color: #f00000;
 margin-top: 80px;}
 
-.sideLightGreen {min-height: 26px;
+.sidelightbulbGreen {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
@@ -302,14 +360,14 @@ background-color: #0aaf05;
 margin-top: 80px;}
 
 
-.sideLightYellow {min-height: 26px;
+.sidelightbulbYellow {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
 background-color: #a1ac0c;
 margin-top: 80px;}
 
-.sideLightPurple {min-height: 26px;
+.sidelightbulbPurple {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
@@ -404,8 +462,14 @@ border-radius: 50%;
        top: 320px;
        left: 10px;
     }
+    @keyframes glowRed {from {box-shadow: 0px 0px 2px #f10000;} to{box-shadow: 0px 0px 5px #f10000;}}
+    @keyframes glowYellow{from {box-shadow: 0px 0px 2px #f1ed00;} to{box-shadow: 0px 0px 5px #f1ed00;}}
+    @keyframes glowGreen {from {box-shadow: 0px 0px 2px #0aff01;} to{box-shadow: 0px 0px 5px #0aff01;}}
+    @keyframes glowPurple {from {box-shadow: 0px 0px 2px #b73aff;} to{box-shadow: 0px 0px 5px #b73aff;}}
+    @keyframes glowBlue {from {box-shadow: 0px 0px 2px #78e6bb;} to{box-shadow: 0px 0px 5px #78e6bb;}}
 
-@keyframes fire {0% {box-shadow: 0px -20px 40px #72caec,
+
+    @keyframes fire {0% {box-shadow: 0px -20px 40px #72caec,
     0px -25px 55px #c2fd54,
     0px -30px 65px #c2fd54,
     0px -35px 75px #e77415;}

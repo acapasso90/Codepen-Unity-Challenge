@@ -33,11 +33,11 @@ if(chanceLight > 0 && chanceLight < 0.1){for (let i = 0; i < blueLight.length; i
                 else if(chanceLight > 0.1 && chanceLight < 0.2){for (let i = 0; i < redSideLight.length; i++) {
                     const redSideLights = redSideLight[i];
                    redSideLights.classList.remove('sidelightbulbRed');
-                  redSideLights.classList.add('sidelightbulbCerulean');}
-                  for (let i = 0; i < ceruleanSidelight.length; i++) {
-                    const ceruleanSideLights = ceruleanSidelight[i];
-                    ceruleanSideLights.classList.remove('sidelightbulbCerulean');
-                    ceruleanSideLights.classList.add('sidelightbulbRed');}}
+                  redSideLights.classList.add('sidelightbulbDarkPurple');}
+                  for (let i = 0; i < darkPurpSidelight.length; i++) {
+                    const darkPurpSidelights = darkPurpSidelight[i];
+                    darkPurpSidelights.classList.remove('sidelightbulbDarkPurple');
+                    darkPurpSidelights.classList.add('sidelightbulbRed');}}
         else if (chanceLight > 0.2 && chanceLight < 0.3){for (let i = 0; i < blueSideLight.length; i++) {
             const blueSideLights = blueSideLight[i];
             blueSideLights.classList.remove('sidelightbulb');
@@ -49,10 +49,10 @@ if(chanceLight > 0 && chanceLight < 0.1){for (let i = 0; i < blueLight.length; i
         else if (chanceLight > 0.3 && chanceLight < 0.4){for (let i = 0; i < greenSideLight.length; i++) {
             const greenSideLights = greenSideLight[i];
            greenSideLights.classList.remove('sidelightbulbGreen');
-          greenSideLights.classList.add('sidelightbulbDarkPurple');};
+          greenSideLights.classList.add('sidelightbulbCerulean');};
           for (let i = 0; i < darkPurpSidelight.length; i++) {
             const darkPurpSideLights = darkPurpSidelight[i];
-            darkPurpSideLights.classList.remove('sidelightbulbDarkPurple');
+            darkPurpSideLights.classList.remove('sidelightbulbCerulean');
             darkPurpSideLights.classList.add('sidelightbulbGreen');}}
         else if (chanceLight > 0.4 && chanceLight < 0.5)
         {for (let i = 0; i < purpleLight.length; i++) {

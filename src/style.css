@@ -49,6 +49,9 @@ left: 330px;
 top: 21px;
 animation: fireFire 6s ease-in-out infinite alternate;}
 
+.flex {display: flex;
+flex-direction: row; }
+
 .hollyberryMiddle {border-radius: 50%;
     max-height: 8px;
     min-height: 5px;
@@ -150,8 +153,8 @@ transform: rotate(290deg);}
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #25acb6;
-box-shadow: 0px 0px 8px #53ffaf;}
+background-color: #5ae6f0;
+box-shadow: 0px 0px 8px #acf3d2;}
 
 .lightbulbRed {min-height: 26px;
     min-width: 20px;
@@ -165,7 +168,7 @@ box-shadow: 0px 0px 8px #f53d3d;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #bd24fa;
+background-color: #d15cff;
 box-shadow: 0px 0px 8px #f14cc0;
 }
 
@@ -173,7 +176,7 @@ box-shadow: 0px 0px 8px #f14cc0;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #0aaf05;
+background-color: #09ff00;
 box-shadow: 0px 0px 8px #5dec32;
 }
 
@@ -181,7 +184,7 @@ box-shadow: 0px 0px 8px #5dec32;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #a1ac0c;
+background-color: #f2fd50;
 box-shadow: 0px 0px 8px #e0ec32;
 }
 
@@ -189,8 +192,8 @@ box-shadow: 0px 0px 8px #e0ec32;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #da244b;
-box-shadow: 0px 0px 8px #e961e2;
+background-color: #f86988;
+box-shadow: 0px 0px 8px #f8abf4;
 }
 
 .lightbulbMint {min-height: 26px;
@@ -205,7 +208,7 @@ box-shadow: 0px 0px 8px #78c72f;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #66058d;
+background-color: #ae0eee;
 box-shadow: 0px 0px 8px #b650f1;
 }
 
@@ -213,19 +216,19 @@ box-shadow: 0px 0px 8px #b650f1;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #ac3303;
-box-shadow: 0px 0px 8px #ff6347;
+background-color: #f36128;
+box-shadow: 0px 0px 8px #ff806a;
 }
 
 .lightbulbCerulean {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #032aac;
-box-shadow: 0px 0px 8px #61f1cd;
+background-color: #003cff;
+box-shadow: 0px 0px 8px #bbffee;
 }
 
-.lights {background-color: #031400;
+.lightstring {background-color: #031400;
 min-height: 10px;
 max-height: 10px;
 max-width: 975px;
@@ -233,7 +236,8 @@ position: relative;
 bottom: 700px;
 z-index: 2;}
 
-.lightsLeft {background-color: #031400;
+
+.lightstringLeft {background-color: #031400;
     min-height: 10px;
     max-height: 10px;
     max-width: 700px;
@@ -244,7 +248,7 @@ z-index: 2;}
     border-radius: 10px;
     z-index: -1;}
 
-    .lightsRight {background-color: #031400;
+    .lightstringRight {background-color: #031400;
         min-height: 10px;
         max-height: 10px;
         max-width: 700px;
@@ -329,8 +333,8 @@ max-height: 30px;}
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #25acb6;
-box-shadow: 0px 0px 8px #53ffaf;
+background-color: #83f7ff;
+box-shadow: 0px 0px 8px #bdfddf;
 margin-top: 80px;}
 
 .sidelightbulbRed {min-height: 26px;
@@ -345,7 +349,7 @@ margin-top: 80px;}
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #0aaf05;
+background-color: #11ff09;
 box-shadow: 0px 0px 8px #70ff53;
 margin-top: 80px;}
 
@@ -354,7 +358,7 @@ margin-top: 80px;}
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #a1ac0c;
+background-color: #f3ff51;
 box-shadow: 0px 0px 8px #ffe75f;
 margin-top: 80px;}
 
@@ -362,15 +366,15 @@ margin-top: 80px;}
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-    background-color: #ac3303;
-    box-shadow: 0px 0px 8px #ff6347;
+    background-color: #f36128;
+    box-shadow: 0px 0px 8px #ff7d66;
 margin-top: 80px;}
 
 .sidelightbulbDarkPurple {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-    background-color: #66058d;
+    background-color: #a900ec;
     box-shadow: 0px 0px 8px #b650f1;
 margin-top: 80px;}
 
@@ -378,7 +382,7 @@ margin-top: 80px;}
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #bd24fa;
+background-color: #c548f7;
 box-shadow: 0px 0px 8px #ff53f1;
 margin-top: 80px;}
 
@@ -386,8 +390,8 @@ margin-top: 80px;}
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-    background-color: #da244b;
-    box-shadow: 0px 0px 8px #e961e2;
+    background-color: #f76887;
+    box-shadow: 0px 0px 8px #fc9cf7;
 margin-top: 80px;}
 
 
@@ -395,8 +399,8 @@ margin-top: 80px;}
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-    background-color: #032aac;
-    box-shadow: 0px 0px 8px #61f1cd;
+    background-color: #003cff;
+    box-shadow: 0px 0px 8px #a6f1df;
 margin-top: 80px;}
 
 .sidelightbulbMint {min-height: 26px;

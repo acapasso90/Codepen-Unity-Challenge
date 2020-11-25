@@ -1,7 +1,8 @@
-body {background: linear-gradient(180deg, rgba(22,18,29,1) 0%, rgba(21,14,29,1) 56%, rgba(0,0,0,1) 100%, rgba(11,10,10,1) 100%);
+body {background: linear-gradient(180deg, rgba(19,20,23,1) 0%, rgba(19,20,24,1) 56%, rgba(14,15,19,1) 100%, rgba(11,10,10,1) 100%);
     margin-top: -140px;
-min-height: 990px;}
+min-height: 820px;}
 
+html {max-height: 820px;}
 .bottom {min-width: 264px;
     max-width: 253px;
 min-height: 150px;
@@ -14,6 +15,7 @@ bottom: 30px;
 left: 25px;}
 
 .col- {z-index: 1;}
+
 
 .container { width: 1000px;
     max-height: 800px;
@@ -241,6 +243,7 @@ z-index: 2;}
     min-height: 10px;
     max-height: 10px;
     max-width: 700px;
+    margin-bottom: 0;
     position: relative;
     transform: rotate(90deg);
     bottom: 364px;
@@ -251,11 +254,12 @@ z-index: 2;}
     .lightstringRight {background-color: #031400;
         min-height: 10px;
         max-height: 10px;
+        min-width: 700px;
         max-width: 700px;
         position: relative;
         transform: rotate(90deg);
         bottom: 374px;
-        left: 622px;
+        left: 352px;
         border-radius: 10px;
         z-index: -1;}
 
@@ -281,8 +285,17 @@ bottom: 30px;
 .middleLightRow {position: relative;
 bottom: 738px;
 z-index: 2;
-min-width: 1060px;
+min-width: 1250px;
 }
+
+.right {float: right;
+padding-left: 40px;}
+
+.rightFloat2 {float: right;
+padding-right: 20px;
+position: relative; 
+bottom: 900px;
+max-height: 0px;}
 
 .rightmiddle {min-width: 161px;
     max-width: 160px;
@@ -327,7 +340,9 @@ border-radius: 45px;}
 
 .row {z-index: 1;
 margin: 0;
-max-height: 30px;}
+max-height: 30px;
+min-width: 270px;
+max-width: 1040px;}
 
 .sidelightbulb {min-height: 26px;
     min-width: 20px;
@@ -418,10 +433,10 @@ bottom: 815px;
 right: 28px;
 min-height: 600px;}
 
-.sideLightsRowRight {position: absolute;
+.sideLightsRowRight {position: relative;
     z-index: 1;
-    bottom: 160px;
-    left: 1255px;
+    bottom: 520px;
+    left: 270px;
     min-height: 600px;}
 
 .top-left {min-width: 75px;

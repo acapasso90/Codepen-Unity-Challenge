@@ -98,10 +98,10 @@ if(chanceLight > 0 && chanceLight < 0.1){for (let i = 0; i < blueLight.length; i
             else {for (let i = 0; i < redLight.length; i++) {
                 const redLights = redLight[i];
                 redLights.classList.remove('lightbulbRed');
-                redLights.classList.add('lightbulbDarkPurp');};
+                redLights.classList.add('lightbulbDarkPurple');};
                 for (let i = 0; i < darkPurpLight.length; i++) {
                     const darkPurpLights = darkPurpLight[i];
-                    darkPurpLights.classList.remove('lightbulbDarkPurp');
+                    darkPurpLights.classList.remove('lightbulbDarkPurple');
                     darkPurpLights.classList.add('lightbulbRed');}}
   
 let keepItGoing = [counter] + chanceLight;

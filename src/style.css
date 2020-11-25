@@ -170,7 +170,7 @@ box-shadow: 0px 0px 8px #f53d3d;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #d15cff;
+background-color: #e299ff;
 box-shadow: 0px 0px 8px #f14cc0;
 }
 
@@ -206,19 +206,19 @@ background-color: #24da70;
 box-shadow: 0px 0px 8px #78c72f;
 }
 
-.lightbulbDarkPurp {min-height: 26px;
+.lightbulbDarkPurple {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #ae0eee;
-box-shadow: 0px 0px 8px #b650f1;
+background-color: #9d10c0;
+box-shadow: 0px 0px 8px #e387ff;
 }
 
 .lightbulbOrange {min-height: 26px;
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #f36128;
+background-color: #ff4800;
 box-shadow: 0px 0px 8px #ff806a;
 }
 
@@ -288,7 +288,7 @@ z-index: 2;
 min-width: 1250px;
 }
 
-.right {float: right;
+.floatRight {float: right;
 padding-left: 40px;}
 
 .rightFloat2 {float: right;
@@ -381,7 +381,7 @@ margin-top: 80px;}
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-    background-color: #f36128;
+    background-color: #ff5100;
     box-shadow: 0px 0px 8px #ff7d66;
 margin-top: 80px;}
 
@@ -389,7 +389,7 @@ margin-top: 80px;}
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-    background-color: #a900ec;
+    background-color: #9803b6;
     box-shadow: 0px 0px 8px #b650f1;
 margin-top: 80px;}
 
@@ -397,7 +397,7 @@ margin-top: 80px;}
     min-width: 20px;
     max-width: 20px;
     border-radius: 60%;
-background-color: #c548f7;
+background-color: #d095e7;
 box-shadow: 0px 0px 8px #ff53f1;
 margin-top: 80px;}
 

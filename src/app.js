@@ -50,10 +50,10 @@ if(chanceLight > 0 && chanceLight < 0.1){for (let i = 0; i < blueLight.length; i
             const greenSideLights = greenSideLight[i];
            greenSideLights.classList.remove('sidelightbulbGreen');
           greenSideLights.classList.add('sidelightbulbCerulean');};
-          for (let i = 0; i < darkPurpSidelight.length; i++) {
-            const darkPurpSideLights = darkPurpSidelight[i];
-            darkPurpSideLights.classList.remove('sidelightbulbCerulean');
-            darkPurpSideLights.classList.add('sidelightbulbGreen');}}
+          for (let i = 0; i < ceruleanSidelight.length; i++) {
+            const ceruleanSidelights = ceruleanSidelight[i];
+            ceruleanSidelights.classList.remove('sidelightbulbCerulean');
+            ceruleanSidelights.classList.add('sidelightbulbGreen');}}
         else if (chanceLight > 0.4 && chanceLight < 0.5)
         {for (let i = 0; i < purpleLight.length; i++) {
     const purpleLights = purpleLight[i];
